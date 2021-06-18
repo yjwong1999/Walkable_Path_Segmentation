@@ -9,7 +9,7 @@ Some open-sourced python packages such as
 - cv2
 - depthai (if the model is to be deployed in OAK-D or related OAD device)
 
-## Steps
+## Annotation steps
 ### 0) Download the videos
 - Get the videos recorded for training purpose from: https://drive.google.com/drive/folders/1z2OpuTa1k9ORMi4entrGD0FQrFBdGUQi?usp=sharing
 - Unzip the file
