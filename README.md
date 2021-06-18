@@ -62,3 +62,7 @@ Run the training.ipynb in Google Colab
 Go to [Luxonis Online Tool for Model Conversion](http://luxonis.com:8080/)
 - Select **OpenVINO version 2020.4** and **TensorFlow Model**
 - For **Model optimizer params**, change to: --data_type=FP16 --mean_values=[127.5,127.5,127.5] --scale_values=[127.5,127.5,127.5] --input_shape=[1,256,256,3]
+- Convert the model into blob file
+
+## Deploy the Model in OAK-D
+Change the variable nnPathDefault into your path to the blob file
