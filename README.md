@@ -2,6 +2,13 @@
 Most road surface semantic segmentation convolutional neural network (CNN) models avalailable online are trained from a self-driving car's perspective.
 This project is meant to train a CNN for **walkable path road segmentation**, which can deployed in an **OpenCV AI Kit with Depth (OAK-D) device**.
 
+## Dependencies
+Some open-sourced python packages such as
+- numpy
+- matplotlib
+- cv2
+- depthai (if the model is to be deployed in OAK-D or related OAD device)
+
 ## Steps
 ### 0) Download the videos
 - Get the videos recorded for training purpose from: https://drive.google.com/drive/folders/1z2OpuTa1k9ORMi4entrGD0FQrFBdGUQi?usp=sharing
