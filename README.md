@@ -12,32 +12,24 @@ This project is meant to train a CNN for **walkable path road segmentation**, wh
 - Install labelme by typing: pip install labelme
 
 ### 2) Extract images from video
-- go to extract_frames.py
-- change variable name into the video name you are assigned to (without all the folder names, just XXX.mp4)
-- change variables video_root and img_root into your own folder
-- run the code
+- Open extract_frames.py
+- Change variable name into the video name you are assigned to (without all the folder names, just XXX.mp4)
+- Change variables video_root and img_root into your own folder
+- Run the code
 
 ### 3) Annotate the images
-- open anaconda prompt
-- type: labelme
-- an UI will be opened
-- click open dir
-- select the dir that contains your extracted images
-- click create polygon and start annotate (by clicking obviously)
-- after finish annotating, you can click modify polygons to modify the annotation
-- type ctrl + s to save this annotation
-- DONT change the file name, use default one
-- click next image to annotate the next image
-- repeat until you annotate all images 
-
-- if tired, can close the UI
-- the next time you open the UI and reopen the directory, the annotated images will remain annotated
+- Open anaconda prompt
+- Launch labelme by typing: labelme
+- Click open dir to select the dir that contains your extracted images
+- Click create polygon and start annotating
+- Save your annotation using the default filename and file location (don't change anything)
+- Repeat until you annotate all images for all videos you have
 
 ### 4) Create the masks
-- open the code for create_masks.py
-- change variable name into the video name you are assigned to (without all the folder names, just XXX.mp4)
-- change variables img_root and mask_root
-- run the code
+- Open the code for create_masks.py
+- Change variable name into the video name you are assigned to (without all the folder names, just XXX.mp4)
+- Change variables img_root and mask_root
+- Run the code
 
 IMPORTANT
 - refer the image below to see what video_root, img_root and mask_root mean
